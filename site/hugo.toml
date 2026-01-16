@@ -1,0 +1,74 @@
+baseURL = "https://pesnik.github.io/being-ml-engineer"
+languageCode = "en-us"
+title = "Being ML Engineer"
+theme = "PaperMod"
+
+[params]
+  description = "My journey to becoming a machine learning engineer. A structured collection of notes, implementations, and insights as I learn ML fundamentals, deep learning, and MLOps."
+  author = "Pesnik"
+  
+  # PaperMod specific
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+[module]
+  [[module.mounts]]
+    source = "../notes"
+    target = "content/notes"
+  
+  [[module.mounts]]
+    source = "../resources"
+    target = "content/resources"
+  
+  [[module.mounts]]
+    source = "../practice"
+    target = "static/practice"  # For code files/downloads
+  
+  # Keep Hugo's own content directory
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Roadmap"
+  url = "/roadmap"
+  weight = 2
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes"
+  weight = 3
+
+[[menu.main]]
+  name = "Practice"
+  url = "/practice"
+  weight = 4
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives"
+  weight = 5
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 6
+
+[[menu.main]]
+  name = "Search"
+  url = "/search"
+  weight = 7
