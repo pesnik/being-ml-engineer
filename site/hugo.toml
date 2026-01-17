@@ -18,7 +18,7 @@ theme = "PaperMod"
 
 [module]
   [[module.mounts]]
-    source = "../notes"
+    source = "../notes/content"
     target = "content/notes"
   
   [[module.mounts]]

@@ -1,0 +1,7 @@
+#+TITLE: 01 ML Landscape
+#+AUTHOR: Pesnik
+#+HUGO_BASE_DIR: ../../../../notes
+#+HUGO_SECTION:  books/hands-on-ml/part-1-fundamentals
+#+EXPORT_FILE_NAME: 01-ml-landscape
+
+* Learning the jargons
